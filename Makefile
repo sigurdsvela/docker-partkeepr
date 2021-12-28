@@ -1,3 +1,6 @@
+build:
+	docker build -t mhubig/partkeepr:latest --rm .
+
 run:
 	docker run -d -p 8080:80 --name partkeepr mhubig/partkeepr
 
